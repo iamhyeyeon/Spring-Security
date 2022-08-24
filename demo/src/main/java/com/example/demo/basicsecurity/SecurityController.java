@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.basicsecurity;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class SecurityController {
     @GetMapping("/")
     public String index(){
-        return "home";
+        return "home"; //html 출력 내용
     }
 }
